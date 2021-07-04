@@ -1,0 +1,88 @@
+.details {
+  text-align: left;
+}
+
+.flex-containerDetails {
+  display: flex;
+}
+
+.flex-containerDetails > div {
+  margin: 0px 16px;
+}
+
+.leftPanel {
+  width: 20%;
+}
+
+.middlePanel {
+  width: 60%;
+}
+
+.rightPanel {
+  width: 20%;
+}
+
+.backToHome {
+  margin-left: 24px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.marginTop-16 {
+  margin-top: 16px;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.marginBottom-16 {
+  margin-bottom: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.yellow {
+  color: yellow;
+  cursor: pointer;
+}
+
+.black {
+  color: none;
+  cursor: pointer;
+}
+
+.trailer-Container {
+  margin: 16px 0px 16px 0px !important;
+}
+
+.grid-Tile {
+  cursor: pointer;
+}
+
+iframe {
+  width: 100% !important;
+}
+
+@media (max-width: 992px) {
+  .leftPanel {
+    width: 100%;
+    text-align: center;
+  }
+  .middlePanel {
+    width: 90%;
+  }
+  .rightPanel {
+    width: 100%;
+  }
+  .flex-containerDetails {
+    flex-direction: column;
+  }
+  .paddingRight {
+    margin-right: 32px;
+  }
+}
