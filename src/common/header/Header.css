@@ -1,0 +1,49 @@
+@-moz-keyframes rotate {
+  100% {
+    -moz-transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.header {
+  background: #222;
+  height: 36px;
+  padding: 8px 32px 8px 16px;
+}
+
+.logo {
+  background-color: #ff7f7f;
+  height: 35px;
+  animation: rotate 8s linear infinite;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.headerButton {
+  float: right;
+  margin-left: 10px;
+}
+
+.requiredEmpty {
+  display: block;
+}
+
+.requiredChecked {
+  display: none;
+}
+
+.red {
+  color: red;
+}
